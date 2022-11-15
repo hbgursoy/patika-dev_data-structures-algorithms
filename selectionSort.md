@@ -2,13 +2,13 @@
 
 [patika.dev profil linkim](https://app.patika.dev/hbgursoy)
 
-## Selection (Insertion) Sort
+## Selection (Insertion) (Insertion) 
 
 ---
 
 1. [22, 27, 16, 2, 18, 6] verilen dizinin;
     
-* *Insertion Sort* türüne göre aşamalarını yazınız
+* *Selection (Insertion) Sort* türüne göre aşamalarını yazınız
 
     ```
     [22 27 16 2 18 6] \\ (n)
@@ -36,12 +36,12 @@
 
 ---
 
-2. [7, 3, 5, 8, 2, 9, 4, 15, 6] verilen dizinin *Selection Sort* türüne göre ilk 4 adımını yazınız.
+2. [7, 3, 5, 8, 2, 9, 4, 15, 6] verilen dizinin *Selection (Insertion) Sort* türüne göre ilk 4 adımını yazınız.
 
     ```
     [7 3 5 8 2 9 4 15 6] \\ (n)
-    [2 3 5 8 7 9 4 15 6] \\ (n-1) :arrow_right: 1. adım
-    [2 3 4 8 7 9 5 15 6] \\ (n-2) :arrow_right: 2. adım
-    [2 3 4 5 7 9 8 15 6] \\ (n-3) :arrow_right: 3. adım
-    [2 3 4 5 6 9 8 15 7] \\ (n-4) :arrow_right: 4. adım
+    [2 3 5 8 7 9 4 15 6] \\ (n-1) --> 1. adım
+    [2 3 4 8 7 9 5 15 6] \\ (n-2) --> 2. adım
+    [2 3 4 5 7 9 8 15 6] \\ (n-3) --> 3. adım
+    [2 3 4 5 6 9 8 15 7] \\ (n-4) --> 4. adım
     ```
